@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/iyva.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Youth Volunteer Association</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        /* Set custom font if needed */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        /* Adjust background and text colors */
+        .bg-custom {
+            background-color: #f0f5f9; /* Light blue background */
+        }
+        .text-custom {
+            color: #35a0d7; /* Dark blue text */
+        }
+        /* Adjust button colors */
+        .btn-custom {
+            background-color: #35a0d7; /* Dark blue button */
+            color: #ffffff; /* White text */
+        }
+        .btn-custom:hover {
+            background-color: #398bb7; /* Darker blue on hover */
+        }
+    </style>
+</head>
+
+<body class="bg-custom text-custom">
+    <nav class="bg-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2"> <!-- Container for logo and name -->
+                <img class="w-12" src="images/iyva.png" alt="Logo">
+                <h1 class="text-2xl font-semibold">Indonesia Youth Volunteer Association</h1>
+            </div>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-custom hover:underline">Home</a></li>
+                <li><a href="#" class="text-custom hover:underline">About</a></li>
+                <li><a href="#" class="text-custom hover:underline">Events</a></li>
+                <li><a href="#" class="text-custom hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Welcome to Indonesia Youth Volunteer Association</h2>
+        <p class="mb-4">We are dedicated to empowering the youth to contribute positively to society through volunteering activities.</p>
+    </div>
+
+    <style>
+    .activity-container {
+        transition-duration: 0.3s; /* Adjust transition speed */
+    }
+
+    .activity-container:hover {
+        cursor: pointer;
+    }
+    </style>
+    <div class="container mx-auto mt-8">
+        <h2 class="text-4xl font-semibold text-center mb-8">2024 Activities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div onclick="window.location.href='https://bit.ly/PendaftaranRelawanIYVA'" class="activity-container bg-white p-6 rounded shadow-md transition-transform transform hover:-translate-y-2 cursor-pointer">
+                <img src="images/sehari mengajar.png" alt="Proyek 1" class="mb-4" />
+                <h3 class="text-xl font-semibold mb-2">Sehari Mengajar Di Rumah Baca Zhaffa</h3>
+                <p class="mt-2">03 Maret 2024</p>
+            </div>            
+            <div class="activity-container bg-white p-6 rounded shadow-md transition-transform transform hover:-translate-y-2">
+                <img src="images/cancer fighter.png" alt="Proyek 1" class="mb-4" />
+                <h3 class="text-xl font-semibold mb-2">Sharing Smile With Cancer Fighter</h3>
+                <p class="mt-2">09 Maret 2024</p>
+            </div>
+            <div class="activity-container bg-white p-6 rounded shadow-md transition-transform transform hover:-translate-y-2">
+                <img src="images/volunteer exp.jpeg" alt="Proyek 1" class="mb-4" />
+                <h3 class="text-xl font-semibold mb-2">Volunteer Expedition: Labuan Bajo</h3>
+                <p class="mt-2">20-30 Juli 2024</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto mt-8 flex justify-center">
+        <button onclick="window.location.href='https://bit.ly/PendaftarantimIYVA'" class="btn-custom py-2 px-4 rounded-lg">Get Involved</button>
+    </div>    
+
+    <footer class="bg-white py-4 mt-8">
+        <div class="container mx-auto">
+            <p class="text-center">&copy; 2024 Indonesia Youth Volunteer Association. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
